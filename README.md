@@ -1,7 +1,7 @@
-realtime-face-emotion-recognition
+**realtime-face-emotion-recognition**
 This project implements a **Real-Time Facial Emotion Recognition System** using **Convolutional Neural Networks (CNN)** built with TensorFlow/Keras and OpenCV.   The model is trained on facial images categorized into seven emotion classes:   `angry`, `disgust`, `fear`, `happy`, `sad`, `surprise`, and `neutral`.
 
-📌 Features
+📌 **Features**
 - Custom CNN model trained on grayscale facial datasets (48x48 pixels).
 - Data augmentation to improve model robustness and prevent overfitting.
 - Real-time face detection using OpenCV Haar Cascade Classifier.
@@ -10,7 +10,7 @@ This project implements a **Real-Time Facial Emotion Recognition System** using 
 
 ---
 
-🗂️ Project Structure
+🗂️** Project Structure**
 ├── app.py # Main application for real-time emotion recognition
 ├── train_model.py # Script to train CNN model
 ├── dataset/ # Dataset directory (train/validation images)
@@ -20,7 +20,7 @@ This project implements a **Real-Time Facial Emotion Recognition System** using 
 └── README.md # Project documentation
 
 
-⚙ Installation
+⚙ **Installation**
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/emotion-recognition.git
@@ -55,16 +55,16 @@ Copy code
 python app.py
 Press q to exit the webcam window.
 
-📊 Model Architecture
+📊 **Model Architecture**
 The CNN architecture consists of:
 
-3 Convolutional + MaxPooling blocks with Batch Normalization and Dropout.
+**3 Convolutional + MaxPooling blocks with Batch Normalization and Dropout.**
 
 Fully connected Dense layers with ReLU activation.
 
 Final Softmax layer for multi-class classification.
 
-✅ Requirements
+✅ **Requirements**
 Python 3.7+
 
 TensorFlow / Keras
