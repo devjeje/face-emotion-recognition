@@ -13,6 +13,7 @@ The model is trained on the **[FER2013 dataset](https://www.kaggle.com/datasets/
 ---
 
 🗂️** Project Structure**
+
 ├── app.py # Main application for real-time emotion recognition
 ├── train_model.py # Script to train CNN model
 ├── dataset/ # Dataset directory (train/validation images)
@@ -25,7 +26,7 @@ The model is trained on the **[FER2013 dataset](https://www.kaggle.com/datasets/
 ⚙ **Installation**
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/emotion-recognition.git
+   git clone https://github.com/devjeje/emotion-recognition.git
    cd emotion-recognition
 Create a virtual environment (recommended):
 
