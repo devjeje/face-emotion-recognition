@@ -1,9 +1,11 @@
 **realtime-face-emotion-recognition**
-This project implements a **Real-Time Facial Emotion Recognition System** using **Convolutional Neural Networks (CNN)** built with TensorFlow/Keras and OpenCV.   The model is trained on facial images categorized into seven emotion classes:   `angry`, `disgust`, `fear`, `happy`, `sad`, `surprise`, and `neutral`.
+This project implements a **Real-Time Facial Emotion Recognition System** using **Convolutional Neural Networks (CNN)** built with TensorFlow/Keras and OpenCV.  
+The model is trained on the **[FER2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013)** which contains 35,887 labeled grayscale facial images categorized into seven emotion classes:  
+`angry`, `disgust`, `fear`, `happy`, `sad`, `surprise`, and `neutral`.
 
 📌 **Features**
-- Custom CNN model trained on grayscale facial datasets (48x48 pixels).
-- Data augmentation to improve model robustness and prevent overfitting.
+- Preprocessed **FER2013 dataset** with grayscale images (48x48 pixels).
+- Custom CNN model trained with data augmentation for better generalization.
 - Real-time face detection using OpenCV Haar Cascade Classifier.
 - Emotion prediction directly from webcam input.
 - Live visualization with bounding boxes and emotion labels.
